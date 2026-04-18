@@ -1,7 +1,7 @@
 # PMI Auto-Dispatcher
 **TXANT — San Antonio Hub | Automated PM Assignment Tool**
 
-Built by Andres (UPS BaSE → Air Group, 2026)
+Built by Andres (UPS)
 
 ---
 
@@ -155,4 +155,4 @@ Built with Python · Streamlit · openpyxl · pandas
 
 Deployed on Streamlit Community Cloud (free tier)
 
-*Built 2026 — TXANT BaSE Department*
+*Built by Andres Guzman 2026 — For TXANT BaSE Department*

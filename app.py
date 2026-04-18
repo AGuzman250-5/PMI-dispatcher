@@ -256,7 +256,7 @@ with col_right:
                         return "background-color: #FFF9C4"
                     return ""
 
-                styled = summary_df.style.applymap(style_hours, subset=["Hours"])
+                styled = summary_df.style.map(style_hours, subset=["Hours"]) if hasattr(summary_df.style, "map") else summary_df.style.applymap(style_hours, subset=["Hours"])
                 st.dataframe(styled, use_container_width=True, hide_index=True)
 
                 # Flags
